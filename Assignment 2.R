@@ -23,6 +23,7 @@ cachemean <- function(x, ...) {
   x$setmean(m)
   m
 }
+
 makeCacheMatrix <- function(a = matrix()) {
   j <- NULL
   set <- function(b) {
